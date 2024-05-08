@@ -1,14 +1,24 @@
 import { useEffect, useState } from 'react'
+import Lenis from 'lenis'
 import Comp1 from './components/comp1'
 
 import './App.css';
 
 function App() {
-  const [reachBottom, setReachBottom] = useState(0)
 
+  // const lenis = new Lenis()
+
+  // function raf(time) {
+  //   lenis.raf(time)
+  //   requestAnimationFrame(raf)
+  // }
+
+  // requestAnimationFrame(raf)
+
+  const [bottomReached, setBottomReached] = useState(0)
   const comps = [];
 
-  for (let i = 0; i < reachBottom; i++) {
+  for (let i = 0; i < bottomReached; i++) {
     comps.push(<Comp1 key={i} />)
   }
 
@@ -18,14 +28,13 @@ function App() {
   }, []);
 
   const handleScroll = () => {
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-      setReachBottom((reachBottom) => reachBottom + 1)
+    if (window.innerHeight + window.scrollY + 100 >= document.body.offsetHeight) {
+      setBottomReached((bottomReached) => bottomReached + 1)
     }
   };
 
-  console.log(comps.length);
   return (
-    <div className="App" style={window.innerWidth < 1024 ? {transformOrigin: "top", transform: 'scale(0.7)'} : undefined}>
+    <div className="App">
       <h2>Rick Erfmann</h2>
       <Comp1 />
       {comps}

@@ -1,32 +1,42 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
 .App {
   padding: 0;
   transition: 2s ease;
 }
 
 .img-container {
-  width: 100%;
+  width: 100vw;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   object-fit: contain;
 }
 
 .img-container img {
   position: relative;
   height: auto;
+  max-height: 80vh;
+  object-fit: contain;
 }
 
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
   .img-container img {
-    position: static;
+    max-width: 80vw;
+    height: auto !important;
   }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .img-container img {
-    position: static;
-    max-width: 90vw;
-    max-height: 100vh;
+    width: 80vw;
     height: auto !important;
-    margin-top: 50 !important;
   }
 } */
