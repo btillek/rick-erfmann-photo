@@ -1,25 +1,22 @@
 import { useEffect, useState } from 'react'
-import Lenis from 'lenis'
 import Comp1 from './components/comp1'
+import Comp2 from './components/comp2'
+import Comp3 from './components/comp3'
+import Comp4 from './components/comp4'
+import About from './components/about'
 
 import './App.css';
 
 function App() {
 
-  // const lenis = new Lenis()
-
-  // function raf(time) {
-  //   lenis.raf(time)
-  //   requestAnimationFrame(raf)
-  // }
-
-  // requestAnimationFrame(raf)
-
+  const [showAbout, setShowAbout] = useState(false)
   const [bottomReached, setBottomReached] = useState(0)
-  const comps = [];
+
+  const comps = [ <Comp1 />, <Comp2 />, <Comp3 />, <Comp4 />];
+  const addedComps = []
 
   for (let i = 0; i < bottomReached; i++) {
-    comps.push(<Comp1 key={i} />)
+      addedComps.push(comps)
   }
 
   useEffect(() => {
@@ -35,9 +32,10 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Rick Erfmann</h2>
-      <Comp1 />
+      <h2 className="header" onClick={() => setShowAbout(true)}>Rick Erfmann</h2>
+      <About show={showAbout} onClose={() => setShowAbout(false)}/>
       {comps}
+      {addedComps}
     </div>
   );
 }
