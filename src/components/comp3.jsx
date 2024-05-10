@@ -34,7 +34,7 @@ export default function Comp2() {
       </div>
 
       <div className="img-container">
-        <img src={Image7} alt="a 008-1-2." style={{maxHeight: "120vh", maxWidth: "70vw", marginTop: "40vh"}} />
+        <img src={Image7} alt="a 008-1-2." style={{maxHeight: "120vh", maxWidth: "60vw", marginTop: "40vh"}} />
         <img src={Image8} alt="a 008-1-2." style={{width: "20%", marginTop: "80vh", marginLeft: "15%"}} />
       </div>
 
