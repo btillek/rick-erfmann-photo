@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rick-erfmann-photo/static/css/main.c6419bc0.css",
-    "main.js": "/rick-erfmann-photo/static/js/main.99559cf1.js",
+    "main.css": "/rick-erfmann-photo/static/css/main.6757b86b.css",
+    "main.js": "/rick-erfmann-photo/static/js/main.43bfbcef.js",
     "static/media/Screenshot 2020-07-21 at 14_30_45.webp": "/rick-erfmann-photo/static/media/Screenshot 2020-07-21 at 14_30_45.0a1d94aa866f805faa20.webp",
     "static/media/Picture 171-2_tif.webp": "/rick-erfmann-photo/static/media/Picture 171-2_tif.e271eff9fffc06f137ff.webp",
     "static/media/Picture 073-2.webp": "/rick-erfmann-photo/static/media/Picture 073-2.926ea49b05fe36b77aa6.webp",
@@ -53,11 +53,11 @@
     "static/media/200410_Raven_ID-Twiske-2.webp": "/rick-erfmann-photo/static/media/200410_Raven_ID-Twiske-2.1a0abe3b9f008e75b3b9.webp",
     "static/media/Picture 086-2.webp": "/rick-erfmann-photo/static/media/Picture 086-2.b55903887c6af6d642f4.webp",
     "index.html": "/rick-erfmann-photo/index.html",
-    "main.c6419bc0.css.map": "/rick-erfmann-photo/static/css/main.c6419bc0.css.map",
-    "main.99559cf1.js.map": "/rick-erfmann-photo/static/js/main.99559cf1.js.map"
+    "main.6757b86b.css.map": "/rick-erfmann-photo/static/css/main.6757b86b.css.map",
+    "main.43bfbcef.js.map": "/rick-erfmann-photo/static/js/main.43bfbcef.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6419bc0.css",
-    "static/js/main.99559cf1.js"
+    "static/css/main.6757b86b.css",
+    "static/js/main.43bfbcef.js"
   ]
 }
