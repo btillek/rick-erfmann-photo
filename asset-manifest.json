@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/rick-erfmann-photo/static/css/main.c44d7e9d.css",
+    "main.css": "/rick-erfmann-photo/static/css/main.3438e7d6.css",
     "main.js": "/rick-erfmann-photo/static/js/main.a726d91b.js",
+    "static/media/UniversRegular.ttf": "/rick-erfmann-photo/static/media/UniversRegular.efb83beef0e6fc740c5d.ttf",
     "index.html": "/rick-erfmann-photo/index.html",
-    "main.c44d7e9d.css.map": "/rick-erfmann-photo/static/css/main.c44d7e9d.css.map",
+    "main.3438e7d6.css.map": "/rick-erfmann-photo/static/css/main.3438e7d6.css.map",
     "main.a726d91b.js.map": "/rick-erfmann-photo/static/js/main.a726d91b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c44d7e9d.css",
+    "static/css/main.3438e7d6.css",
     "static/js/main.a726d91b.js"
   ]
 }
