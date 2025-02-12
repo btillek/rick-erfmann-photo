@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/rick-erfmann-photo/static/css/main.452e75f1.css",
+    "main.css": "/rick-erfmann-photo/static/css/main.c44d7e9d.css",
     "main.js": "/rick-erfmann-photo/static/js/main.a726d91b.js",
     "index.html": "/rick-erfmann-photo/index.html",
-    "main.452e75f1.css.map": "/rick-erfmann-photo/static/css/main.452e75f1.css.map",
+    "main.c44d7e9d.css.map": "/rick-erfmann-photo/static/css/main.c44d7e9d.css.map",
     "main.a726d91b.js.map": "/rick-erfmann-photo/static/js/main.a726d91b.js.map"
   },
   "entrypoints": [
-    "static/css/main.452e75f1.css",
+    "static/css/main.c44d7e9d.css",
     "static/js/main.a726d91b.js"
   ]
 }
