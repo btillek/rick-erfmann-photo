@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.82cdc546.css",
-    "main.js": "/static/js/main.b036c114.js",
+    "main.css": "/static/css/main.0dfcadba.css",
+    "main.js": "/static/js/main.79787fd0.js",
+    "static/media/RICK_ERFMANN.pdf": "/static/media/RICK_ERFMANN.bc240279fa00e5a2c2f6.pdf",
     "static/media/UniversRegular.ttf": "/static/media/UniversRegular.efb83beef0e6fc740c5d.ttf",
     "index.html": "/index.html",
-    "main.82cdc546.css.map": "/static/css/main.82cdc546.css.map",
-    "main.b036c114.js.map": "/static/js/main.b036c114.js.map"
+    "main.0dfcadba.css.map": "/static/css/main.0dfcadba.css.map",
+    "main.79787fd0.js.map": "/static/js/main.79787fd0.js.map"
   },
   "entrypoints": [
-    "static/css/main.82cdc546.css",
-    "static/js/main.b036c114.js"
+    "static/css/main.0dfcadba.css",
+    "static/js/main.79787fd0.js"
   ]
 }
